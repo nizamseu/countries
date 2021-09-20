@@ -14,3 +14,10 @@
   height: 200px;
   box-shadow: 5px 5px 15px gray;
 }
+.countries {
+  margin-top: 80px;
+}
+.banner {
+  background-color: white;
+  box-shadow: 5px 5px 15px gray;
+}

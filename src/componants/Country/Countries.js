@@ -12,7 +12,11 @@ const Countries = () => {
 
   return (
     <div>
-      <div className="row">
+      <div className="fixed-top banner p-1">
+        <h1 className="text-center text-info">All Country</h1>
+      </div>
+
+      <div className="row countries">
         {countries.map((country) => (
           <Country country={country}></Country>
         ))}
